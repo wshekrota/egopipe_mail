@@ -42,7 +42,9 @@ Then **startup** filebeat..
 Now filebeat is in wait mode due to logstash not answering.
 
 **Clone** the egopipe repo down and copy in the your_pipe_code.go from the egopipe_mail so you can make any changes.
+
 https://github.com/wshekrota/egopipe.git
+
 Least case copy the your_pipe_code.go from egopipe_mail cloned above to here.
 
 'go build ./...' then copy the egopipe executable 'egopipe' to the Dockerfile directory below for logstash.
