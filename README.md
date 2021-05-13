@@ -33,7 +33,7 @@ Notice the lines that select what emails are of interest. (in this case they are
 Once you have configured that part of the source compile mail.go.
 'go build mail.go' 
 Then **copy** the executable to your log directory /var/log so you can create the logfile.
-'mail > myfiles.log'
+'**mail > myfiles.log**'
 The output of this will be a line of json for each email item.
 
 Then **startup** filebeat..
@@ -41,9 +41,9 @@ Then **startup** filebeat..
 
 Now filebeat is in wait mode due to logstash not answering.
 
-**Clone** the egopipe repo down and copy in the your_pipe_code.go from the egopipe_mail so you can make any changes and compile egopipe. 
-
+**Clone** the egopipe repo down and copy in the your_pipe_code.go from the egopipe_mail so you can make any changes.
 https://github.com/wshekrota/egopipe.git
+Least case copy the your_pipe_code.go from egopipe_mail cloned above to here.
 
 'go build ./...' then copy the egopipe executable 'egopipe' to the Dockerfile directory below for logstash.
 
