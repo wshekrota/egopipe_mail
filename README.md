@@ -67,8 +67,10 @@ cd to each directory ....apps/elastic (and do a 'docker build .') after assuring
 
 Here are some kibana images of linkedin data for my jobsearch.
 ![donut all data](/images/li.png)
+
 Here are totals by day...
 ![daily counts](/images/dailymix.png)
-This is the tranform code that enhanced the data. (your_pipe_code.go)
+
+This is the transform code that enhanced the data. (your_pipe_code.go)
 For your linkedin emails you may analyze the types of jobs differently? I was looking at 3 categories.
 ![transform code](/images/mailtran.png)
