@@ -63,9 +63,9 @@ Now we **clone** the repo containing the Dockerfiles to start the Elasticstack c
 
 https://github.com/wshekrota/egopipe_containers.git
 
-cd to each directory ....apps/elastic (and do a 'docker build .') after assuring the files you need are there. elastic and kibana you can use with minor changes to the config files. Logstash you want to be sure the egopipe executable wass compilled and copied there. It will be placed in the container.
+cd to each directory ....apps/elastic (and do a 'docker build .') after assuring the files you need are there. elastic and kibana you can use with minor changes to the config files. Logstash you want to be sure the egopipe executable was compiled and copied there. It will be placed in the container.
 
-Here are some kibana images of linkedin data for my jobsearch.
+Here are some kibana images of linkedin data for my jobsearch. (based on my previous emails)
 ![donut all data](/images/li.png)
 
 Here are totals by day...
